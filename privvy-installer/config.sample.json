@@ -1,0 +1,26 @@
+{
+  "PipeName": "PrivvyPipe",
+  "LogPath": "C:\\ProgramData\\Privvy\\logs\\privvy.log",
+  "Rules": [
+    {
+      "Name": "Notepad",
+      "Path": "C:\\Windows\\System32\\notepad.exe",
+      "Sha256": "84B484FD3636F2CA3E468D2821D97AACDE8A143A2724A3AE65F48A33CA2FD258",
+      "WorkingDirectory": "C:\\Windows\\System32",
+      "AllowArguments": false,
+      "AllowedArguments": []
+    },
+    {
+      "Name": "Vendor App",
+      "Path": "C:\\Program Files\\Vendor\\App\\App.exe",
+      "Sha256": "REPLACE_WITH_REAL_SHA256",
+      "Publisher": "Vendor, Inc.",
+      "WorkingDirectory": "C:\\Program Files\\Vendor\\App",
+      "AllowArguments": true,
+      "AllowedArguments": [
+        "--safe-mode",
+        "--maintenance"
+      ]
+    }
+  ]
+}
